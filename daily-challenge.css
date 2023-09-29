@@ -5,14 +5,18 @@
   font-style: normal;
 }
 
+body {
+  text-align: center;
+  background-color: rgb(233, 215, 207);
+  margin: 50px;
+}
+
 h1 {
   font-family: "Dela Gothic One";
-  text-align: center;
   color: #534b4b;
 }
 p {
   font-family: 'Pretendard-Regular';
-  text-align: center;
   color: #534b4b;
 }
 
@@ -23,6 +27,12 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+img {
+  width:200px;
+  height: 200px;
+  border-radius: 100px
 }
 
 #todays-challenge {
