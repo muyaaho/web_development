@@ -8,7 +8,8 @@ import os.path
 import os
 import re
 
-MD_FILE_PATH = './2023-10-06.md'
+# 수정
+MD_FILE_PATH = './2023-10-10.md'
 NOTE_FILE_PATH = 'note'
 
 
@@ -37,22 +38,26 @@ if enter == "y" or enter == 'Y':
     for i, x in enumerate(made_images):
         os.rename(f"./{x}", f"./note_image/image-{start+i}.png")
 
-    # 마크다운 파일 변경
+    # # 마크다운 파일 변경
     p = re.compile('image.*[.]png')
+    notp = re.compile('[/]image.*[.]png')
     new_file = ''
-    print(start)
+    # print(start)
+    # start = 6
     with open(MD_FILE_PATH, 'r', encoding='utf-8') as f:
         lines  = f.readlines()
         i = 0
         for l in lines:
             m = p.search(l)
-            if m:
+            mp = notp.search(l)
+            if not mp and m:
                 print(f"\t{m.group()}이 note_image/image-{start+i}.png로 변경되었습니다.")
                 tmp = l.replace(m.group(), f"note_image/image-{start+i}.png")
                 new_file += tmp
                 i += 1
             else:
                 new_file += l
+                
 
     with open(MD_FILE_PATH, 'w', encoding='utf-8') as f:
         f.write(new_file)
