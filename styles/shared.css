@@ -10,23 +10,24 @@ body {
   text-align: center;
   background-color: rgb(233, 215, 207);
   margin: 50px;
+  color: #534b4b;
 }
 
 h1 {
   font-family: "Dela Gothic One";
-  color: #534b4b;
 }
 p {
-  font-family: "Pretendard-Regular";
-  color: #534b4b;
+  font-family: "Pretendard-Regular"
 }
 
 a {
   color: rgb(167, 1, 78);
   text-decoration: none;
+  font-family: 'Prompt', sans-serif;
 }
 
 a:hover {
   text-decoration: underline;
+  font-family: 'Prompt', sans-serif;
 }
 

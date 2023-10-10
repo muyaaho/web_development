@@ -1,6 +1,18 @@
+header {
+    margin-bottom: 64px;
+}
+
 h1 {
     font-size: 48px;
     color: rgb(71, 62, 62);
+}
+
+/* #descripyion {
+    margin-bottom: 36px;
+} */
+
+header p {
+    margin-bottom: 36px;
 }
 
 a {
@@ -29,4 +41,18 @@ li{
     margin: 32px;
     background-color: rgb(223, 136, 124);
     border-radius: 6px;
+}
+
+h2 {
+    color: rgb(78, 13, 5);
+    font-family: 'Prompt', sans-serif;
+}
+
+main p{
+    margin: 12px;
+    color: rgb(78, 13, 5);
+}
+
+.highlight-goal {
+    background-color: rgb(224, 110, 95);
 }
