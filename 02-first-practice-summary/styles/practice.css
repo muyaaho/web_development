@@ -9,7 +9,9 @@ body {
 
 header {
     text-align: center;
-    margin: 0 auto 70px auto;
+    /* margin이면 margin collapse가 일어남 -> padding으로 */
+    padding: 32px;
+    /* margin: 0 auto 70px auto; -> text-align 때문에 안해도 됨*/
 
 }
 
@@ -21,7 +23,9 @@ h1 {
 
 header img {
     width: 350px;
-    object-fit: cover;
+    /* 기본적으로 종횡비가 유지됨
+    object-fit: cover; */
+    
 }
 
 main {
@@ -32,7 +36,7 @@ main {
     width: 750px;
 }
 
-h3 {
+h2 {
     color: white;
     font-size: 30px;
 }
@@ -45,7 +49,7 @@ span {
     font-weight: bold;
 }
 
-ol {
+ul {
     list-style: none;
     color: white;
     padding-left: 10px;
