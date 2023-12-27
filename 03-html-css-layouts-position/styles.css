@@ -51,24 +51,44 @@
 
 #destinations {
   display: flex;
+  justify-content: center;
   width: 90%;
   margin: auto;
   margin-bottom: 40px;
 }
 
-.destination {
-  margin: 0 20px;
+#highlights h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(59, 65, 64);
+  margin: 24px 0;
 }
 
+.destination {
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+
+.destination p {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(124, 123, 123);
+  margin: 20px 0;
+}
 
 /* 3개 이미지 가로 길이가 다 다름 */
 /* 세로에 맞춰서 가로를 자동으로 맞춰주기 때문 px로 하거나..  */
 .destination img {
-  
   height: 200px;
   width: 300px;
   box-shadow: 2px 4px 8px rgb(68, 67, 67);
   border-radius: 10px;
-  object-fit: fill;
+  object-fit: cover;
 }
+
+.destination strong {
+  color: rgb(0, 160, 117);
+}
+
 
