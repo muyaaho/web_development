@@ -30,3 +30,29 @@
 | 전통적인 접근 방식 | 기능적인 접근 방식(크기 제한) |
 | 사무실 기반 고객에 집중 | 라이프스타일/뉴스에 집중 |
 | 기능이 많은 웹사이트를 만들 수 있음 | 컨텐츠 우선 |
+
+
+## Getting started with Media Queries
+```CSS
+@media (min-width or max-width: 1200px){
+	p{font-size: 2rem;}
+}
+```
+반응형 웹사이트는 미디어 쿼리로 구현할 수 있음
+- 미디어 쿼리는 CSS 코드임
+- 미디어 유형에 대한 정보 수집(장치 유형, 사양 정보)
+- 장치 유형이 기준에 적합하다면 미디어 쿼리 안의 코드가 실행됨
+- 미디어 쿼리가 실행되면 변경이 아닌 속성이 추가됨
+코드 설명
+- 장치의 너비나 높이가 1200px 이상이면 코드 실행
+- max-width: Desktop First
+- min-width: Mobile First
+
+## Common Breakpoints for Media Queries
+- Portrait
+	- Smartphon: 480px
+	- Tablet: 768px
+- Landscape
+	- Notebook: 1024px
+	- Desktop Computer: 1200px
+	- TV: > 1200px
