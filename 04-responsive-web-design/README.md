@@ -8,3 +8,14 @@
 - 픽셀: 적응형 디자인
 
 - 모바일에서 보기 위해서는 좀 더 동적인 유닛이 필요함 -> %, em, rem
+
+- 브라우저 기본값으로 설정됨, 그런데 food-item-content에 설정된다면 h2의 부모값이 food-item-content이므로 food-item-content와 같게 만들어짐 
+- 1em == 100% 
+- rem은 브라우저 기본값의 배수(2rem == 2 * 16px)
+
+- padding의 %는 부모요소의 %로됨
+- 하지만 padding에 em, rem은 font-size의 배수로 결정됨!
+
+#### Note
+항상 정답은 아님. 개인 선호도나 프로젝트 요구 사항에 따라 Unit을 선택해야됨
+
