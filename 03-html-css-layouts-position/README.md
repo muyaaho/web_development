@@ -10,5 +10,6 @@
 
 
 ### 완성
-![Alt text](image.png)
-![Alt text](image-1.png)
+![image](https://github.com/muyaaho/web_development/assets/76798969/3706892a-f78e-4655-9a4c-21fc1772a44a)
+
+![image](https://github.com/muyaaho/web_development/assets/76798969/a0ae4c6c-e658-4c29-b97a-ebff7abae99b)
