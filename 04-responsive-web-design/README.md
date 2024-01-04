@@ -56,3 +56,18 @@
 	- Notebook: 1024px
 	- Desktop Computer: 1200px
 	- TV: > 1200px
+
+
+## Hamburger Icon & Side Drawer
+1. Create clickable hamburger button in mobile view (모바일 뷰에만 보임)
+2. Open side drawer on first button blick
+		![[Pasted image 20240104135744.png]]
+3. Close side drawer on second button click
+
+## New Topics Covered
+- Internal links
+	- Adds defined ID to URL
+	- href="#id"
+- The target selector
+	- Activates CSS rules if defined ID is selected in URL
+	- #id: target
