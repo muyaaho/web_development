@@ -6,13 +6,10 @@
 
 
 - 픽셀: 적응형 디자인
-
 - 모바일에서 보기 위해서는 좀 더 동적인 유닛이 필요함 -> %, em, rem
-
 - 브라우저 기본값으로 설정됨, 그런데 food-item-content에 설정된다면 h2의 부모값이 food-item-content이므로 food-item-content와 같게 만들어짐 
 - 1em == 100% 
 - rem은 브라우저 기본값의 배수(2rem == 2 * 16px)
-
 - padding의 %는 부모요소의 %로됨
 - 하지만 padding에 em, rem은 font-size의 배수로 결정됨!
 
@@ -71,3 +68,17 @@
 - The target selector
 	- Activates CSS rules if defined ID is selected in URL
 	- #id: target
+
+## 완성
+- 데스크탑
+
+  ![image](https://github.com/muyaaho/web_development/assets/76798969/76f56442-a06b-4b95-8ccb-919f5e4f04cd)
+
+- 모바일
+
+  ![image](https://github.com/muyaaho/web_development/assets/76798969/524a79bd-6b0d-42f2-9a49-958fa4b3d5f1) | ![image](https://github.com/muyaaho/web_development/assets/76798969/5f734e82-2b4c-4276-ac15-a86f686b6b2c)
+  --- | --- |
+
+## 정리
+- px 대신 사용자 글자 크기에 따른 rem, em이라는 단위도 있다. 보통 rem을 많이 사용함(정답은 아님)
+- media query를 통해 너비 별로 나타나는 화면을 바꿀 수 있음 -> 반응형
