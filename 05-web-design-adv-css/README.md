@@ -48,3 +48,13 @@ transition: {속성} {지속시간} {타이밍 기능timing function} {delay 전
 }
 ```
 - 이런 식으로 hover에 적용하려면 hover의 부모에 transition 정의, hover에는 바뀌는 변환 내용(transform)을 정의해야됨
+
+
+## Using SVGs
+- Scalable Vector Graphics
+- 2차원 벡터 그래픽을 표현하기 위한 XML 기반의 마크업 언어
+- 브라우저가 렌더링 할 수 있는 확장형 이미지의 텍스트 기반 description
+  - 브라우저가 해석할 수 있는 확장형 이미지
+- 복잡한 이미지에서는 잘 안쓰임: 모든 요소를 각각 묘사하는 것이 힘들기 때문
+- 아이콘 같은 이미지에 쉽게 사용 가능
+- [heroicons](https://heroicons.com/): svg 아이콘 사용 
